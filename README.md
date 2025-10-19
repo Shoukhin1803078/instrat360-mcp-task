@@ -32,7 +32,7 @@ I create a simple chatbot application that demonstrates **Model Context Protocol
 ## Project Structure
 
 ```
-instrat360-mcp-project/
+instrat360-mcp-task/
 ├── requirements.txt          # Python dependencies
 ├── README.md                 # This file
 ├── mcp_server/
@@ -53,7 +53,7 @@ instrat360-mcp-project/
 
 ```bash
 git clone <your-repo-url>
-cd instrat360-mcp-project
+cd instrat360-mcp-task
 ```
 
 ### Step 2: Create virtual environment and install Dependencies
@@ -79,7 +79,6 @@ This will start the FastMCP server on the default port.
 Create a new terminal and then go to web_server directory
 
 ```bash
-cd cd instrat360-mcp-project
 cd web_server
 python3 main.py
 ```
