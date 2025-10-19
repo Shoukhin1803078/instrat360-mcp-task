@@ -33,8 +33,8 @@ I create a simple chatbot application that demonstrates **Model Context Protocol
 
 ```
 instrat360-mcp-task/
-├── requirements.txt          # Python dependencies
-├── README.md                 # This file
+├── requirements.txt          
+├── README.md                
 ├── mcp_server/
 │   └── mcp_server.py        # MCP server with resources, tools, prompts
 └── web_server/
