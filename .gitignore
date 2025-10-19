@@ -8,6 +8,7 @@ venv/
 
 # Environment files
 .env
+.venv/
 
 # IDEs
 .vscode/
