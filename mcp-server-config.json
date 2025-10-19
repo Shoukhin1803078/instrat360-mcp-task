@@ -4,7 +4,7 @@
       "command": "uv",
       "args": [
         "--directory",
-        "/Users/mdalamintokder/instrat360-task/instrat360-mcp-project/mcp_server",
+        "/Users/mdalamintokder/instrat360-mcp-task/mcp_server",
         "run",
         "mcp_server.py"
       ]
