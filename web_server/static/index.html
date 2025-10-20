@@ -426,7 +426,7 @@
             if (toolCalled) {
                 const badge = document.createElement('div');
                 badge.className = 'tool-badge';
-                badge.textContent = '🔧 MCP Tool Used';
+                badge.textContent = ' MCP Tool Used';
                 contentDiv.appendChild(badge);
             }
 
@@ -434,7 +434,7 @@
             if (sender === 'bot') {
                 const info = document.createElement('div');
                 info.className = 'message-info';
-                info.textContent = mode === 'openai' ? '🤖 OpenAI GPT-3.5' : '🎭 Mock Mode';
+                info.textContent = mode === 'openai' ? ' OpenAI GPT-3.5' : ' Mock Mode';
                 contentDiv.appendChild(info);
             }
 
