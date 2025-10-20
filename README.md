@@ -137,7 +137,7 @@ http://localhost:8000
 
 
 
-## 🔧 MCP Capabilities Demonstration
+##  MCP Capabilities Demonstration
 
 ### 1. Resources (Read-only data endpoints)
 
