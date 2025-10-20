@@ -2,7 +2,7 @@
 
 # INSTRAT360 MCP Chatbot Project
 
-I create a simple chatbot application that demonstrates **Model Context Protocol (MCP)** integration with AI assistants. The chatbot can answer questions about INSTRAT360 company using MCP tools for data retrieval.
+I create a simple chatbot AI assistant for **INSTRAT360** company with **Model Context Protocol (MCP)** integration . The chatbot can answer questions about INSTRAT360 company using MCP tools for data retrieval.
 
 ## Features
 - **AI Chatbot**:
