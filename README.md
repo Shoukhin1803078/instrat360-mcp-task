@@ -1,4 +1,3 @@
-# instrat360-task
 
 # INSTRAT360 MCP Chatbot Project
 
