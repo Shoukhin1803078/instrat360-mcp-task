@@ -94,7 +94,25 @@ http://localhost:8000
 
 --- 
 
-## 🎮 Usage Guide
+# Sample Output
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 20 17 PM" src="https://github.com/user-attachments/assets/c2927dd2-1697-49ef-97dd-6b21b6f6c1a1" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 54 38 PM" src="https://github.com/user-attachments/assets/2de394ff-f6a0-45e0-affe-23a78bc272c0" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 56 26 PM" src="https://github.com/user-attachments/assets/b443b9ff-a50b-47e7-bf7f-4136e6129d50" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 56 38 PM" src="https://github.com/user-attachments/assets/6344c92d-b10a-4870-9d84-318755c7f892" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 56 58 PM" src="https://github.com/user-attachments/assets/b0566cfa-02e0-4383-9d8d-cc81217aaa27" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 00 11 PM" src="https://github.com/user-attachments/assets/8d62c404-a0f0-4760-bbe1-533f51f5de09" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 00 40 PM" 
+src="https://g<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 01 00 PM" src="https://github.com/user-attachments/assets/9b645636-2eb5-4f0b-8f38-98153ac975cb" />
+ithub.com/user-attachments/assets/1c0cfc21-8450-4d37-8a7b-3f23040e521e" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 01 34 PM" src="https://github.com/user-attachments/assets/60ab8182-7944-48f5-8228-f93883ec69fd" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 03 29 PM" src="https://github.com/user-attachments/assets/61e22f4c-ab33-4f56-b5ce-b57b1f4a2583" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 03 42 PM" src="https://github.com/user-attachments/assets/7df754a5-e35c-4d2b-bf51-a85fb84c5345" />
+
+
+
+---
+
+##  Usage Guide
 
 ### Mock Mode (No API Key Required)
 
