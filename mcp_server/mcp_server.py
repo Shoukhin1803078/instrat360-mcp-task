@@ -1,12 +1,8 @@
-# mcp_server/mcp_server.py
+
 from fastmcp import FastMCP
 
-# Initialize MCP Server
 mcp = FastMCP("INSTRAT360 MCP Server")
 
-# ============================================
-# DATA STORE (Resources)
-# ============================================
 
 COMPANY_INFO = {
     "name": "INSTRAT360",
@@ -15,40 +11,21 @@ COMPANY_INFO = {
     "mission": "To empower organizations with adaptable, actionable, and aligned strategies powered by agentic AI."
 }
 
-# EMPLOYEES = {
-#     "Sarah Chen": {
-#         "role": "CEO & Chief Strategist",
-#         "department": "Executive",
-#         "expertise": ["Strategic Planning", "AI Integration"]
-#     },
-#     "Marcus Johnson": {
-#         "role": "CTO & AI Architect",
-#         "department": "Technology",
-#         "expertise": ["AI Architecture", "System Design"]
-#     },
-#     "Priya Sharma": {
-#         "role": "Head of Strategy Consulting",
-#         "department": "Consulting",
-#         "expertise": ["Management Consulting", "OKR Design"]
-#     }
-# }
-
-
 EMPLOYEES = {
-    "Sarah Chen": {
-        "role": "CEO & Chief Strategist",
-        "department": "Executive",
-        "expertise": ["Strategic Planning", "AI Integration"]
+    "Asbjørn Levring": {
+        "role": "Founder & CEO ",
+        "department": "Operations",
+        "expertise": ["Strategic Planning", "Agentic AI", "Operational Efficiency", "AI Integration"]
     },
-    "Marcus Johnson": {
+    "Mahmud Hasan": {
         "role": "CTO & AI Architect",
         "department": "Technology",
         "expertise": ["AI Architecture", "System Design"]
     },
-    "Priya Sharma": {
-        "role": "Head of Strategy Consulting",
-        "department": "Consulting",
-        "expertise": ["Management Consulting", "OKR Design"]
+    "Fahim": {
+        "role": "Head of AI",
+        "department": "AI",
+        "expertise": ["Mlops" ,"LLM","Consulting", "AI system Design"]
     }
 }
 
@@ -71,9 +48,9 @@ PROJECTS = {
     }
 }
 
-# ============================================
+
 # RESOURCES (Read-only data endpoints)
-# ============================================
+
 
 @mcp.resource("company://info")
 def get_company_resource():
@@ -90,9 +67,9 @@ def get_projects_resource():
     """Resource: List of all projects"""
     return {"projects": list(PROJECTS.keys())}
 
-# ============================================
+
 # TOOLS (Callable functions)
-# ============================================
+
 
 @mcp.tool()
 def get_company_overview():
@@ -133,9 +110,9 @@ def find_expert(skill: str):
         return {"message": f"No expert found for '{skill}'", "experts": []}
     return {"skill": skill, "experts": matches}
 
-# ============================================
+
 # PROMPTS (Pre-defined templates)
-# ============================================
+
 
 @mcp.prompt()
 def company_analysis_prompt():
@@ -176,9 +153,7 @@ Focus on:
 
 Deliver actionable insights."""
 
-# ============================================
-# RUN SERVER
-# ============================================
+
 
 if __name__ == "__main__":
     mcp.run()

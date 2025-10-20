@@ -43,16 +43,16 @@ instrat360-mcp-task/
         └── index.html       # Chat UI (HTML + CSS + JS)
 ```
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
-- Python 3.8 or higher
+- requires-python = ">=3.12"
 - uv (Python package manager)
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Shoukhin1803078/instrat360-mcp-task.git
 cd instrat360-mcp-task
 ```
 
@@ -64,7 +64,7 @@ source .venv/bin/activate (For MAC OS)
 uv pip install -r requirements.txt
 ```
 
-### Step 3: Run the MCP Server (Optional - for testing)
+### Step 3: Run the MCP Server 
 
 The MCP server can run independently for testing:
 
@@ -75,7 +75,7 @@ uv run mcp_server.py
 
 This will start the FastMCP server on the default port.
 
-### Step 4: Run the Web Server
+### Step 4: Run the Web Server in another terminal
 Create a new terminal and then go to web_server directory
 
 ```bash
@@ -86,7 +86,7 @@ python3 main.py
 
 ### Step 5: Open the Chatbot
 
-Open your browser and go to:
+Open browser and go to:
 
 ```
 http://localhost:8000
@@ -99,14 +99,13 @@ http://localhost:8000
 ### Mock Mode (No API Key Required)
 
 1. Select **"Mock Mode"** (default)
-2. Type your question in the chat input
+2. Type question in the chat input
 3. The bot uses rule-based logic to detect intent and call MCP tools
 4. Responses are formatted naturally
 
 **Example Questions:**
 - "Tell me about INSTRAT360"
 - "Who are the employees?"
-- "What is Sarah Chen's role?"
 - "Show me the projects"
 - "Find an AI expert"
 
@@ -200,6 +199,5 @@ The system uses **intent detection** to automatically call the right MCP tool:
 |------------|----------------|-----------------|
 | "Tell me about INSTRAT360" | Company info | `get_company_overview()` |
 | "Who are the employees?" | Employee list | `list_all_employees()` |
-| "Who is Sarah Chen?" | Specific employee | `get_employee_details("Sarah Chen")` |
 | "What projects exist?" | Project list | Returns all projects |
 | "Find an AI expert" | Expert search | `find_expert("AI")` |
