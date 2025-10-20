@@ -96,6 +96,7 @@ http://localhost:8000
 
 # Sample Output
 <img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 20 17 PM" src="https://github.com/user-attachments/assets/c2927dd2-1697-49ef-97dd-6b21b6f6c1a1" />
+<img width="1710" height="1107" alt="Screenshot 2025-10-20 at 11 27 47 PM" src="https://github.com/user-attachments/assets/197fbcab-73f0-4e25-b1c0-ce4bcc8fe365" />
 <img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 54 38 PM" src="https://github.com/user-attachments/assets/2de394ff-f6a0-45e0-affe-23a78bc272c0" />
 <img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 56 26 PM" src="https://github.com/user-attachments/assets/b443b9ff-a50b-47e7-bf7f-4136e6129d50" />
 <img width="1710" height="1107" alt="Screenshot 2025-10-20 at 10 56 38 PM" src="https://github.com/user-attachments/assets/6344c92d-b10a-4870-9d84-318755c7f892" />
