@@ -36,7 +36,7 @@ instrat360-mcp-task/
 ├── requirements.txt          
 ├── README.md                
 ├── mcp_server/
-│   └── mcp_server.py        # MCP server with resources, tools, prompts
+│   └── mcp_server.py        # Here I define MCP server with resources, tools, prompts
 └── web_server/
     ├── main.py              # FastAPI web server
     └── static/
