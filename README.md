@@ -60,7 +60,8 @@ cd instrat360-mcp-task
 
 ```bash
 uv venv
-source .venv/bin/activate (For MAC OS)
+source .venv/bin/activate (For MAC)
+.venv\Scripts\activate (For windows)
 uv pip install -r requirements.txt
 ```
 
